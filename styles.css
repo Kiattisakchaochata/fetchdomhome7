@@ -1,0 +1,15 @@
+* {
+box-sizing: border-box;
+}
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: pink;
+  list-style-type: none;
+}
+.user-list li {
+border: 1px solid gray;
+padding-block: 4px;
+cursor: pointer;
+}
